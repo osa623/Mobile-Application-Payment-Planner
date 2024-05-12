@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaskManagerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name ="colorPrimary">@color/purple</item>
+        <item name ="colorPrimaryVariant">#CDA260DD</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.TaskManagerApp" parent="Base.Theme.TaskManagerApp" />
+</resources>

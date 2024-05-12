@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TaskManagerApp</string>
+    <string name="your_diet_plans">Your Diet Plans</string>
+    <string name="your_fitness_plans">Your Fitness Plans</string>
+    <string name="give_your_diet_planner_a_name">Give Your Diet Planner a Name</string>
+    <string name="add_your_diet_plan_here">Add Your Diet Plan here</string>
+    <string name="set_the_date_for_the_planner">Set the Date for the Planner</string>
+    <string name="todo">TODO</string>
+    <string name="give_your_payment_plan_a_name">Give Your Payment plan a name</string>
+    <string name="item_label">item label</string>
+</resources>

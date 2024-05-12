@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdatePlans">
+
+    <TextView
+        android:id="@+id/updatePaymentPlannerHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Add Your Payment plan"
+        android:textAlignment="center"
+        android:textColor="@color/lightpurple"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/updatecoloricon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/planner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_alignTop="@+id/updatePaymentPlannerHeading"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/updatetitleEditText"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updatePaymentPlannerHeading"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/purple_border"
+        android:hint="Give Your Payment Plan a Name"
+        android:padding="16dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/updateSetdate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updatetitleEditText"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/purple_border"
+        android:hint="Set the Date for the Final Payment"
+        android:padding="16dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:autofillHints="" />
+
+
+    <ImageView
+        android:id="@+id/updateDateSetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/updatetitleEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-58dp"
+        android:src="@drawable/calender"
+        android:contentDescription="TODO" />
+
+
+    <EditText
+        android:id="@+id/updatePaymentcontent"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/updateSetdate"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/purple_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="Add Details On Your Payment"
+        android:padding="16dp"
+        android:textSize="15sp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/updatePlannedButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/purple_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Your Payment Plans"/>
+
+
+</RelativeLayout>
