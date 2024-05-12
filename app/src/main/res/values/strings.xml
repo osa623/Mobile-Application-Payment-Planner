@@ -10,4 +10,7 @@
     <string name="item_label">item label</string>
     <string name="your_payment_plans">Your Payment Plans</string>
     <string name="paycue_respects_user_privacy_collecting_personal_data_such_as_user_details_and_payment_schedules_solely_to_enhance_user_experience_we_do_not_share_or_sell_user_data_unless_required_by_law_or_to_fulfill_user_requests_users_can_access_modify_or_delete_their_stored_information_by_using_the_app_users_agree_to_this_policy">\'PayCue respects user privacy, collecting personal data such as user details and payment schedules solely to enhance user experience. We do not share or sell user data unless required by law or to fulfill user requests. Users can access, modify, or delete their stored information. By using the app, users agree to this policy.\'</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="plan">Plan</string>
 </resources>

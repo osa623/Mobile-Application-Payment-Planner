@@ -24,10 +24,10 @@
         android:id="@+id/titleView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Title"
+        android:text="@string/title"
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/lightpurple"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"/>
 
     <ImageView
@@ -53,10 +53,10 @@
         android:id="@+id/dateView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date"
+        android:text="@string/date"
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/black"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:maxLines="3"
         android:layout_marginTop="5dp"
         android:textStyle="bold"/>
@@ -67,10 +67,10 @@
             android:id="@+id/planView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Plan"
+            android:text="@string/plan"
             android:fontFamily="@font/poppins_semibold"
             android:textColor="@color/black"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:maxLines="3"
             android:layout_marginTop="5dp"
             android:textStyle="bold"/>
