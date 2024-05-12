@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -47,6 +48,19 @@ dependencies {
 
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
+
+    //Room
+    val roomVersion = "2.6.0"
+    //noinspection GradleDependency
+    implementation("androidx.room:room-ktx:$roomVersion")
+    kapt("androidx.room:room-compiler:$roomVersion")
+
+    //Navigation
+    implementation("androidx.navigation:navigation-common:2.7.7")
+
+    //Extended Icons
+    implementation("androidx.compose.material:material-icons-extended-android:1.6.7")
+
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
