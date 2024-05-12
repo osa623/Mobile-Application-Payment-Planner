@@ -14,4 +14,6 @@
     <string name="date">Date</string>
     <string name="plan">Plan</string>
     <string name="add_your_plan">Add Your Plan</string>
+    <string name="add_your_payement_plan">Add Your Payement Plan</string>
+    <string name="update_your_plan">Update Your Plan</string>
 </resources>
