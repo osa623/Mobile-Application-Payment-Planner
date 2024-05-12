@@ -97,7 +97,7 @@
         android:background="@drawable/purple_border"
         android:fontFamily="@font/poppins"
         android:gravity="center"
-        android:text="Your Payment Plans"/>
+        android:text="@string/add_your_plan"/>
 
 
 </RelativeLayout>
