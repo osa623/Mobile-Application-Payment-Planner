@@ -39,6 +39,22 @@
         android:fontFamily="@font/poppins_semibold"
         android:textSize="12sp"/>
 
+
+    <Button
+        android:id="@+id/addBillImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/purple_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/add_a_bill_as_an_image"/>
+
     <Button
         android:id="@+id/addDietplannerbutton"
         android:layout_width="300dp"

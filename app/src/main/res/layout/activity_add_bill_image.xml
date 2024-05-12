@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddBillImage">
+
+    <TextView
+        android:id="@+id/addBillImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Add Your Bill Here"
+        android:textAlignment="center"
+        android:textColor="@color/lightpurple"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/clockicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/planner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_alignTop="@+id/addBillImage"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/titleBillText"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addBillImage"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/purple_border"
+        android:hint="@string/add_a_name_for_the_bill"
+        android:padding="16dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/ImagePickerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addBillImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-58dp"
+        android:src="@drawable/addimage"
+        android:contentDescription="TODO" />
+
+
+    <EditText
+        android:id="@+id/SetBilldate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBillText"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/purple_border"
+        android:hint="@string/set_the_date_for_the_bill"
+        android:padding="16dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:autofillHints="" />
+
+
+    <ImageView
+        android:id="@+id/BillDateSetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/titleBillText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-58dp"
+        android:src="@drawable/calender"
+        android:contentDescription="TODO" />
+
+
+    <ImageView
+        android:id="@+id/imagePreviewer"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/SetBilldate"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/purple_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="@string/your_bill_goes_here"
+        android:padding="16dp"
+        android:textSize="15sp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/PlannedButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/purple_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/save_your_bill"/>
+</RelativeLayout>

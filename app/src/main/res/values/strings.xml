@@ -20,4 +20,11 @@
     <string name="in_the_payment_plans_section_you_ll_find_all_your_scheduled_payments_easily_manage_and_update_your_financial_commitments_set_reminders_and_track_bills_with_simple_interfaces_stay_on_top_of_your_finances_by_adding_editing_or_deleting_plans_effortlessly">In the \'Payment Plans\' section, you\'ll find all your scheduled payments. Easily manage and update your financial commitments, set reminders, and track bills. With simple interfaces, stay on top of your finances by adding, editing, or deleting plans effortlessly.</string>
     <string name="you_personal_payment_planner">You Personal Payment Planner</string>
     <string name="your_personal_payment_planner">Your Personal Payment Planner</string>
+    <string name="add_a_bill_as_an_image">Add a Bill As an Image</string>
+    <string name="add_a_name_for_the_bill">Add a Name for the Bill</string>
+    <string name="set_the_date_for_the_bill">Set the Date for the Bill</string>
+    <string name="add_details_for_your_bill">Add Details for Your Bill</string>
+    <string name="save_your_bill">Save Your Bill</string>
+    <string name="your_bill_goes_here">Your Bill Goes Here</string>
+    <string name="bill_date">Bill Date</string>
 </resources>

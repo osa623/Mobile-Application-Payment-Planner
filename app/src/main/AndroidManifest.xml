@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TaskManagerApp"
         tools:targetApi="31">
         <activity
+            android:name=".storedBill"
+            android:exported="false" />
+        <activity
+            android:name=".AddBillImage"
+            android:exported="false" />
+        <activity
             android:name=".UpdatePlans"
             android:exported="false" />
         <activity
