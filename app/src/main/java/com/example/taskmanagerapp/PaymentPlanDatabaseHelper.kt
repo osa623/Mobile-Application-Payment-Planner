@@ -15,6 +15,7 @@ class PaymentPlanDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DA
         private const val COLUMN_TITLE = "title"
         private const val COLUMN_DATE = "date"
         private const val COLUMN_CONTENT = "content"
+
     }
 
     override fun onCreate(db: SQLiteDatabase?) {

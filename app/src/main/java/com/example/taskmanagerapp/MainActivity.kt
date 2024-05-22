@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.taskmanagerapp.databinding.ActivityMainBinding
-import com.example.taskmanagerapp.databinding.ActivityAddBillImageBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,13 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.addDietplannerbutton.setOnClickListener {
-            val intent = Intent(this, storedDietnotes::class.java)
+            val intent = Intent(this, storedPlans::class.java)
             startActivity(intent)
         }
 
-        binding.addBillImageButton.setOnClickListener {
-            val intent = Intent(this, storedBill::class.java)
-            startActivity(intent)
-        }
     }
 }

@@ -4,10 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.taskmanagerapp.databinding.ActivityStoredDietnotesBinding
 
-class storedDietnotes : AppCompatActivity() {
+class storedPlans : AppCompatActivity() {
 
     private lateinit var binding: ActivityStoredDietnotesBinding
     private lateinit var db: PaymentPlanDatabaseHelper

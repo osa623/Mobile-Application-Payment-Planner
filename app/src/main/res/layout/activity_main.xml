@@ -40,20 +40,6 @@
         android:textSize="12sp"/>
 
 
-    <Button
-        android:id="@+id/addBillImageButton"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginEnd="50dp"
-        android:background="@drawable/purple_border"
-        android:fontFamily="@font/poppins"
-        android:gravity="center"
-        android:text="@string/add_a_bill_as_an_image"/>
 
     <Button
         android:id="@+id/addDietplannerbutton"
@@ -63,7 +49,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="550dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/purple_border"
         android:fontFamily="@font/poppins"
@@ -79,7 +65,7 @@
         android:gravity="center"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="720dp"
+        android:layout_marginTop="650dp"
         android:layout_marginEnd="59dp"
         android:layout_marginBottom="-27dp"
         android:text="@string/paycue_respects_user_privacy_collecting_personal_data_such_as_user_details_and_payment_schedules_solely_to_enhance_user_experience_we_do_not_share_or_sell_user_data_unless_required_by_law_or_to_fulfill_user_requests_users_can_access_modify_or_delete_their_stored_information_by_using_the_app_users_agree_to_this_policy"
